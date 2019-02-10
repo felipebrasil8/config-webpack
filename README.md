@@ -1,11 +1,13 @@
 # config-webpack
 
-Projeto base para a configuração do web-pack
+__Projeto base para a configuração do web-pack__
 
-Tratando arquivos css como módulos
+# Tratando arquivos css como módulos
 
+```
 npm install bootstrap@3.3.7 --save
 npm install css-loader@0.28.4 style-loader@0.18.2 --save-dev
+```
 
 Para configurar esses loader
 Criar uma nova regra
