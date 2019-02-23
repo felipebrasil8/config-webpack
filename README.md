@@ -42,8 +42,21 @@ Resolvendo o problema de carregamento atrazado do css ou FOUC significa flash of
 npm install extract-text-webpack-plugin@3.0.0 --save-dev
 ```
 
-No ambimente de produção o css deve ser minificado, para isso usamos
+No ambimente de produção o css deve ser minificado, para isso deve ser usado
 
 ```
 npm install optimize-css-assets-webpack-plugin@2.0.0 cssnano@3.10.0 --save-dev
 ```
+
+# Importando scripts
+
+```
+npm install jquery@3.2.1 --save
+```
+Configurar para o JQuery ficar acessível em toda aplicação
+
+webpack.ProvidePlugin vai disponibilizar as variável em um escopo que é acessível por cada modulo da aplicação
+
+
+
+
